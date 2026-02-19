@@ -1,5 +1,38 @@
 *.temp*
 
+# Python #
+##########
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments #
+########################
+venv/
+ENV/
+env/
+.venv
+
+# Testing & Coverage #
+######################
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# IDE #
+#######
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
 # Compiled source #
 ###################
 *.com
@@ -7,12 +40,9 @@
 *.dll
 *.exe
 *.o
-*.so
 
 # Packages #
 ############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
 *.7z
 *.dmg
 *.gz
@@ -39,4 +69,7 @@ ehthumbs.db
 Thumbs.db
 .actrc*
 
-__pycache__/
+# Environment variables #
+#########################
+.env
+.env.local
